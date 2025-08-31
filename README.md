@@ -5,7 +5,7 @@ You can use them with IDE integrations, in the terminal, or in task automation.
 Some thoughts on code assist security are included in [SECURITY.md](SECURITY.md).
 
 ## Installing the IDE Extensions
-Using VS Codium is recommended.
+Using [VS Codium](https://vscodium.com/) is recommended.
 If you use VS Code, just replace `codium` with `code`.
 ```bash
 codium --install-extension anthropic.claude-code
@@ -22,7 +22,7 @@ As a recommendation, you can drag the terminal tab in the panel out to the right
 Using `qwen` opens up the ability to use `gpt-oss:20b` and `qwen3:4b` for coding tasks.
 These models aren't anywhere near as good as `claude-sonnet-4` or `gemini-2.5-pro`, but they can do some work if your hardware can run them effectively.
 
-For `qwen` to use the Ollama API, the following setup will need to be done in your terminal profile (eg. `~/.bash_profile` or `~/.bashrc` or `~/.zshrc`).
+For `qwen` to use the [Ollama](https://ollama.com) API, the following setup will need to be done in your terminal profile (eg. `~/.bash_profile` or `~/.bashrc` or `~/.zshrc`).
 ```shell
 export OPENAI_BASE_URL=http://localhost:11434/v1
 export OPENAI_API_KEY=ollama
